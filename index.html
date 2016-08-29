@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style>
+      form {
+        margin-top: 20px;
+      }
+      #pointsField {
+        width: 35px;
+      }
+    </style>
     <script src="pointBuy.js"></script>
   </head>
   <body>
@@ -58,7 +66,9 @@
       </tr>
     </table>
     <form>
-      <input id="pointsField" type="textfield" value="27"/>
+      Number Points: 
+      <input id="pointsField" type="number" value="27" max=54 min=0 />
+      </br>
       <button id="rollButton">Roll!</button>
     </form>
   </body>
