@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Random Point-Buy Attributes For 5th Edition D&D</title>
+    <style>
+      form {
+        margin-top: 20px;
+      }
+      #pointsField {
+        width: 35px;
+      }
+    </style>
     <script src="pointBuy.js"></script>
   </head>
   <body>
-    <h1>Random Point-Buy Attributes</h1>
+    <h1>Random Point-Buy Attributes For 5th Edition D&D</h1>
     <table>
       <tr>
         <th>
@@ -58,7 +67,9 @@
       </tr>
     </table>
     <form>
-      <input id="pointsField" type="textfield" value="27"/>
+      Number Points: 
+      <input id="pointsField" type="number" value="27" max="54" min="0" />
+      </br>
       <button id="rollButton">Roll!</button>
     </form>
   </body>
