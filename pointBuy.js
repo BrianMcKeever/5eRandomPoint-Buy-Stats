@@ -74,6 +74,8 @@ window.onload = function(){
         document.getElementById("chaTd").innerHTML = stats[5];
     }
 
+    document.getElementById("pointsField").value = 27;
+
     var button = document.getElementById("rollButton");
     button.addEventListener("click", onRollButtonClick);
 };
